@@ -1,1 +1,4 @@
 *.pyc
+json_files
+epg_files
+Web
