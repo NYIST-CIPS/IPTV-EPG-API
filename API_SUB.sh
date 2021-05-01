@@ -4,7 +4,7 @@
 #WebSite:https://dpii.club
 
 #bash ./formatList.sh
-bash ./epg_get.sh 7 m
+bash ./epg_get.sh -7 1 m
 if [ ! -d "Web" ];then
     mkdir Web
 fi
