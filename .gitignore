@@ -2,3 +2,6 @@
 json_files
 epg_files
 Web
+epg_db
+channel_List.cfg
+fullepgs.json
