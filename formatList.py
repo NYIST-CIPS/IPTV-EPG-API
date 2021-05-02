@@ -1,7 +1,7 @@
 import json
 import requests
 
-list_url="http://172.31.32.87/list.json"
+list_url="https://dpii.club/list.json"
 req = requests.get(list_url)
 chList=req.json()
 #print(chList)
