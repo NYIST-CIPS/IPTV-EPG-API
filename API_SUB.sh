@@ -14,3 +14,6 @@ if [ -f "Web/fullepgs.json" ];then
 else
     echo 'Something wrong...'
 fi
+if [ "$1" == "cut" ];then
+    bash ./cut_SUB.sh -7 1
+fi
